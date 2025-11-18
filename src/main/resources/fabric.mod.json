@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "randomdrops",
+  "version": "1.0.0",
+  "name": "Random Drops",
+  "description": "Blocks drop random items, but each block type keeps the same drop after the first break.",
+  "entrypoints": {
+    "main": [
+      "net.zura.randomdrops.RandomDropsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
